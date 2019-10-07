@@ -5,6 +5,6 @@ from app import webapp
 def hello_world():
     pageContent = """
     Hello World!
-            --- by 皮皮虾s: Awesome 费利克斯 && Awesome Giant Fredpan
+            <dev>--- by 皮皮虾s: Awesome 费利克斯 && Awesome Giant Fredpan<dev/>
     """
     return pageContent
