@@ -1,3 +1,3 @@
 from app import webapp
 
-webapp.run("localhost", 5000)
+webapp.run("0.0.0.0", 5000)
