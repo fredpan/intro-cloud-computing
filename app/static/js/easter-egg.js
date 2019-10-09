@@ -11,7 +11,7 @@ function wowwowwowwowwowwowwowwowwow(){
     var i = Math.floor(Math.random() * c);
     var aws = confirm(q[i]);
     console.log(aws);
-    while (true){
+    while (aws) {
         i = Math.floor(Math.random() * c);
         aws = confirm(q[i]);
     }
