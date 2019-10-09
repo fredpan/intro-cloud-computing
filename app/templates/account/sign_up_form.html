@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <div class='error'><h2>{{error_msg if error_mag != None}}</h2></div>
-<form action='{{url_for(' sign_up_save')}}' method='post'>
+<form action='{{url_for()}}' method='post'>
 <div>
     <label>Login Name</label>
     <input name='username' type='text' value='{{username if username  != None}}'>
