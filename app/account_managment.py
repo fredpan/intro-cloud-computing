@@ -43,7 +43,6 @@ def user_login():
 # Create a new student and save them in the database.
 def sign_up_save():
     # need to trim the user name
-
     username = request.form.get('username', "")
     password1 = request.form.get('password1', "")
     password2 = request.form.get('password2', "")
