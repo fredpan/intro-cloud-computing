@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Pipi Shrimp</title>
-    <script src="../static/js/easter-egg.js"></script>
-    <!--<link rel="stylesheet" href="styles/dark_souls.css">-->
+    <title>{{title}}</title>
     <style>
         body {
             width: 500px;
@@ -34,19 +32,16 @@
             color: white;
             font-family: verdana;
         }
+
+        label {
+            color: white;
+            font-family: verdana;
+        }
     </style>
 </head>
 <body>
-<div><h2>ALL HAIL GRAND.PIPISHRIMP</h2></div>
-<div><h2>LONG LIVE THE MANTIS SHRIMP KING.</h2></div>
-<div id="xiaolaodi"><img src="../static/pipixia.png"/></div>
-<div><p>--- by Devout Disciples of the Mantis Shrimp King:</p></div>
-<div><p>Awesome FelixHong && Awesome Giant FredPan</p></div>
-<form action="/joinus" method="get">
-    <button type="submit">Join Us!</button>
-</form>
-<form action="/login" method="get">
-    <button type="submit">Member Login</button>
-</form>
+<h1>{{title}}</h1>
+{% block content %}
+{% endblock %}
 </body>
 </html>

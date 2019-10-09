@@ -1,0 +1,28 @@
+body {
+    width: 500px;
+    background-color: black;
+    border: 5px dashed powderblue;
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: verdana;
+    text-align: right;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+    font-family: verdana;
+}
